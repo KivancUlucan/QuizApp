@@ -5,8 +5,7 @@
 }
 
 .header {
-  margin-bottom: 20px;
-  background-color: gray;
+  background-color: grey;
   height: 100px;
   width: 100%;
   text-align: center;
@@ -18,7 +17,6 @@
   background-color: gray;
   height: 100px;
   width: 100%;
-  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-around;
@@ -31,36 +29,75 @@
   flex-direction: column;
 }
 
-.footer_icon {
+.home_icon {
   height: 30px;
   width: 30px;
 }
 
-.pic {
+.bookmark_icon {
   height: 30px;
   width: 30px;
-  border-radius: 20px;
+}
+
+.info_icon {
+  height: 30px;
+  width: 30px;
+}
+
+.bookmark_icon_card {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  left: 360px;
+  top: -30px;
 }
 
 .question_card {
   height: 200px;
   width: 400px;
-  background-color: burlywood;
+  background-color: rgb(225, 235, 242);
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .show_answer_button {
   border: none;
-  background-color: aquamarine;
+  background-color: rgb(85, 162, 244);
   border-radius: 8px;
+  width: 100px;
+  align-self: center;
+  color: aliceblue;
 }
 
 .answer_button {
   border: none;
-  background-color: blueviolet;
+  background-color: rgb(221, 149, 210);
   border-radius: 8px;
   min-width: 80px;
+  margin-top: 50px;
+  color: aliceblue;
+}
+
+.question {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  background-color: rgb(244, 240, 233);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
