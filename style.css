@@ -5,7 +5,7 @@
 }
 
 .header {
-  margin: 0;
+  margin-bottom: 20px;
   background-color: gray;
   height: 100px;
   width: 100%;
@@ -28,6 +28,7 @@
 .main {
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 
 .footer_icon {
@@ -39,4 +40,27 @@
   height: 30px;
   width: 30px;
   border-radius: 20px;
+}
+
+.question_card {
+  height: 200px;
+  width: 400px;
+  background-color: burlywood;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.show_answer_button {
+  border: none;
+  background-color: aquamarine;
+  border-radius: 8px;
+}
+
+.answer_button {
+  border: none;
+  background-color: blueviolet;
+  border-radius: 8px;
+  min-width: 80px;
 }
